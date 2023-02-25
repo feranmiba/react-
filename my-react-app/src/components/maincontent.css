@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: "inter", sans-serif;
+}
+h1 {
+  font-size: 30px;
+  line-height: 2px;
+  color: #051e1c;
+}
+p {
+  font-size: 16px;
+  color: #465b52;
+}
+.mail {
+  text-decoration: none;
+  border: 0.5mm solid white;
+  padding: 10px 120px 10px 120px;
+  background-color: white;
+  border-radius: 10px;
+}
+.dev {
+  color: rgba(243, 181, 25);
+  font-size: 16px;
+}
+.logos {
+  width: 20px;
+}
+.main-name {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.pro {
+  padding: 5px 0px;
+  width: 30%;
+  background-color: #eaf3eb;
+  color: white;
+  line-height: 0.5;
+}
+.pro h4 {
+  font-weight: 100;
+  font-size: 15px;
+  color: #46315b;
+  line-height: 20px;
+}
+.about-sect {
+  padding: 0px 30px;
+}
+.about h1 {
+  display: flex;
+  text-align: left;
+  padding: 9px 8px 0px 8px;
+}
+.about p {
+  line-height: 1.5;
+  display: flex;
+  text-align: left;
+  padding: 0px 8px 0px 8px;
+  font-size: 14px;
+}
+
+/*media query*/
+@media (max-width:1200px) { 
+  .pro {
+    padding: 5px 0px;
+    width: 50%;
+  } 
+}
+@media (max-width:900px) {
+  .mail {
+ 
+    padding: 10px 110px 10px 110px;
+  } 
+  .pro {
+    padding: 5px 0px;
+    width: 60%;
+  }
+  .about-sect {
+    padding: 0px 10px;
+  }
+}
+@media (max-width:600px) {
+  .mail {
+ 
+    padding: 10px 110px 10px 110px;
+  } 
+  .pro {
+    padding: 5px 0px;
+    width: 70%;
+  }
+  .about-sect {
+    padding: 0px 10px;
+  }
+}
+@media (max-width:500px) {
+.pro {
+  padding: 5px 0px;
+  width: 70%;
+}
+.mail {
+ 
+  padding: 10px 60px 10px 60px;
+  border-radius: 10px;
+}
+.about-sect {
+  padding: 0px 10px;
+}
+}
